@@ -32,6 +32,7 @@
 }
 
 .form-content {
+  margin-top: 2rem !important;
   max-width: 550px;
   margin: auto auto;
 }
@@ -46,5 +47,12 @@
 }
 
 #submit-button {
-  width: 550px;
+  min-width: 550px;
+  height: 40px;
+  border-radius: 5px;
+  background: linear-gradient(90deg, #711f8d 1.14%, #a818da 100%);
+}
+
+.meme-img {
+  margin-top: 2rem !important;
 }
