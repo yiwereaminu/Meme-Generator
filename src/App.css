@@ -53,6 +53,8 @@
   background: linear-gradient(90deg, #711f8d 1.14%, #a818da 100%);
 }
 
-.meme-img {
+#meme-img {
   margin-top: 2rem !important;
+  width: 381px !important;
+  height: 378px !important;
 }
