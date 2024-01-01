@@ -4,7 +4,6 @@ import memesData from "/memesData.jsx";
 import { useState } from "react";
 
 const MainContent = () => {
-  let [memeImage, setMemeImage] = useState("");
   function getMemeImage() {
     const memesArray = memesData.data.memes;
     const randomNumber = Math.floor(Math.random() * memesArray.length);
@@ -13,7 +12,7 @@ const MainContent = () => {
     console.log(setMemeImage(memesArray[randomNumber].url));
     return setMemeImage(memesArray[randomNumber].url);
   }
-
+  let [memeImage, setMemeImage] = useState("");
   // console.log(getMemeImage());
   return (
     <Container>
